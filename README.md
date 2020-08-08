@@ -10,4 +10,7 @@ The program will panic (abruptly exit) if a URL not beginning with "http" or "ht
 # api 
 The api folder uses the config.json file, which contains a host and port for ourAPI to use.
 
-It has three endpoints (pages the API can go to and displau some information): the homepage "/", "/helloworld", and "/status". /status will display the 200 OK code, / will display HTML for the homepage, and /helloworld will display the "Hello world" greeting to the user
+It has three endpoints (pages the API can go to and display some information):
+* /status will display the 200 OK code,
+* / will display HTML for the homepage,
+* /helloworld will display the "Hello world" greeting to the user
